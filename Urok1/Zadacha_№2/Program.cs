@@ -2,3 +2,17 @@
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
+
+Console.WriteLine();
+Console.WriteLine("Задача № 2. Максимальное из двух чисел");
+Console.Write("Введи первое число: ");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введи второе число: ");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+
+if (firstNumber>secondNumber) {
+  Console.WriteLine("MAX= " + firstNumber);
+}
+else {
+  Console.WriteLine("MAX= " + secondNumber);
+}
