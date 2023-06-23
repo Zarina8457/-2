@@ -2,7 +2,7 @@
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-Console.WriteLine($"\nЗадача 34. Массив заполненный случайными положительными трёхзначными числами.");
+Console.WriteLine($"\nЗадача 34.");
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
