@@ -5,7 +5,7 @@
 // 11 16 15 06
 // 10 09 08 07
 
-Console.WriteLine($"\nЗадача 54.");
+Console.WriteLine($"\nЗадача 62.");
 
 int len = 4;
 int[,] table = new int[len, len];
